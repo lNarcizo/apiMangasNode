@@ -1,0 +1,15 @@
+{
+  "name": "testnode",
+  "version": "1.0.0",
+  "description": "testando node",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "author": "Lucas Narcizo Neto",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "nodemon": "^2.0.16"
+  }
+}
