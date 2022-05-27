@@ -45,7 +45,7 @@ app.put("/atualiza-manga/:id", (req, resp)=> {
     const mangaIndex = mangas.findIndex(manga => manga.id === id);
 
     mangas[mangaIndex] = {
-        id: mangas[mangaIndex],
+        ...mangas[mangaIndex],
         nome,
         capitulo
     };
